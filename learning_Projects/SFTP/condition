@@ -1,0 +1,33 @@
+Download file from the SFTP server to local system.
+Source:/C:/Users/Upload and Download/SFTP_server/Original_data/data.txt
+Destination: C:\Users\crr\IdeaProjects\MysqlConnection
+
+after process the text file.
+
+valid row are stored in the database table.
+Both Failed row and Success row are stored Failure.txt and Success.txt.
+
+Upload the Failure.txt and Success.txt in the SFTP server.
+Source1:C:\Users\crr\IdeaProjects\MysqlConnection\failure.txt
+Source2:C:\Users\crr\IdeaProjects\MysqlConnection\success.txt
+Destination: /C:/Users/Upload and Download/SFTP_server/Modified-data
+
+
+text file contain 3 field
+Name,phone,email
+
+1st field = name
+2nd field = phone no with 10 digit
+3rd field = email with '@' symbol
+
+
+---VALID ROW---(stored in db table)
+these condition met then data will be stored in database table.
+-->check in Mysql Db.
+
+---VALID ROW---(written in the Success.txt files)
+ Valid row will added to "Success.txt"
+
+
+---INVALID ROW---(written in the failure.txt files)
+In a row condition will fails those specific row will added to "failure.txt" 

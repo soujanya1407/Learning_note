@@ -1,0 +1,17 @@
+Pizza class
+We created class and two data member
+one is price of Integer type
+and 2nd one is the veg of Boolean type.
+
+Create a constructor for the veg type.
+it has boolean type Parameter is true then it is considered as veg otherwise non veg.
+ "this" keyword explains in the pizza class.
+
+ I had created Pizza1,Pizz2,Pizza3 for step by step understanding purpose.
+
+ Pizza3.
+ code will be simplified or structured in getBill() method.
+ read the section.
+
+Pizza3 and DeluxPizza are final code.
+Main use of "this" and "super" keyword covered in this mini Pizza project.
